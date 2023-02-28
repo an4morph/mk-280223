@@ -26,8 +26,59 @@ body {
   width: 100%;
 }
 
+.header > menu li {
+  margin-right: 40px;
+}
+
+.header > menu li a:hover {
+  color: #E9672B;
+}
+
+.header > menu li a {
+  color: inherit;
+  text-decoration: none;
+}
+
 .header > .right-block {
   display: flex;
   width: 100%;
   justify-content: end;
+}
+
+.header .search {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  width: 330px;
+  height: 40px;
+  border: 1px solid #E0E0E0;
+  border-radius: 20px;
+  padding-right: 5px;
+}
+
+.header .search input {
+  width: 100%;
+  height: 100%;
+  border: none;
+  background-color: transparent;
+  padding: 0 20px;
+}
+
+.header .search input:focus {
+  outline: none;
+}
+
+.header .search input::placeholder {
+  color: #A1A1A1;
+}
+
+.header .search-btn {
+  height: 30px;
+  padding: 0 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #E9672B;
+  border: none;
+  border-radius: 20px;
 }
