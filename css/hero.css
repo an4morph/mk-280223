@@ -1,0 +1,56 @@
+.hero {
+  height: calc(100vh - 76px);
+  position: relative;
+}
+.hero .left-box {
+  width: 50%;
+  height: 100%;
+}
+.hero .right-box {
+  width: 50%;
+  height: 100%;
+  background-image: url(../img/hero-bg.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.hero .bg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  top: 0;
+  left: 0;
+}
+.hero .content {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.hero h1 {
+  font-size: 64px;
+  line-height: 76px;
+  font-weight: 400;
+  margin-bottom: 18px;
+}
+
+.hero p {
+  font-size: 18px;
+  line-height: 28px;
+  margin-bottom: 46px;
+}
+
+.hero .get-started {
+  background-color: #E9672B;
+  padding: 0 31px;
+  height: 60px;
+  border-radius: 30px;
+  border: none;
+  font-size: 18px;
+}
+
+.hero-container {
+  height: 100%;
+}

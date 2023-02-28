@@ -24,3 +24,8 @@ body {
 .icon-btn:hover {
   background-color: #dad9d6;
 }
+
+.container {
+  margin: 0 auto;
+  width: 1088px;
+}
