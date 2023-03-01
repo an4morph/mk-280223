@@ -59,3 +59,27 @@
 .hero-container {
   height: 100%;
 }
+
+@media screen and (max-width: 1200px) {
+  .hero .right-box {
+    background-size: cover;
+  }
+}
+
+@media screen and (max-width: 730px) {
+  .hero .bg {
+    z-index: -1;
+  }
+  .hero .content {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .hero .right-box {
+    display: none;
+  }
+  .hero .content {
+    width: 100%;
+  }
+}

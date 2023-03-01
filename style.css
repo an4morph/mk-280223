@@ -29,3 +29,22 @@ body {
   margin: 0 auto;
   width: 1088px;
 }
+
+@media screen and (max-width: 1200px) {
+  .container {
+    width: 860px;
+  }
+}
+
+@media screen and (max-width: 956px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media screen and (max-width: 730px) {
+  .container {
+    width: 100%;
+    padding: 0 20px;
+  }
+}
